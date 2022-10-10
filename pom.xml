@@ -14,13 +14,16 @@
 
     <!--版本号-->
     <properties>
+        <!--项目编码-->
         <project.encoding>UTF-8</project.encoding>
         <project.build.sourceEncoding>${project.encoding}</project.build.sourceEncoding>
         <project.reporting.outputEncoding>${project.encoding}</project.reporting.outputEncoding>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        <!--Maven 最低运行版本-->
         <maven.version>3.8.0</maven.version>
-        <jdk.version>1.8.0-144</jdk.version>
+        <!--OpenJDK 最低运行版本-->
+        <jdk.version>11.0.2</jdk.version>
         <!--spring-boot-->
         <spring-boot.version>2.6.3</spring-boot.version>
         <spring-cloud.version>2021.0.1</spring-cloud.version>
@@ -29,14 +32,10 @@
         <mysql-connector-java.version>8.0.29</mysql-connector-java.version>
         <!--mariadb-java-client-->
         <mariadb-java-client.version>3.0.7</mariadb-java-client.version>
-        <!--druid-->
-        <druid.version>1.2.11</druid.version>
-        <!--HikariCP-->
-        <HikariCP.version>5.0.1</HikariCP.version>
         <!--mybatis-plus-boot-starter-->
         <mybatis-plus-boot-starter.version>3.5.2</mybatis-plus-boot-starter.version>
         <!--mybatis-plus-generator-->
-        <mybatis-plus-generator.version>3.5.3</mybatis-plus-generator.version>
+        <mybatis-plus-generator.version>3.5.2</mybatis-plus-generator.version>
         <!--lombok-->
         <lombok.version>1.18.24</lombok.version>
         <!--springfox-boot-starter-->
@@ -129,22 +128,15 @@
                 <version>${mariadb-java-client.version}</version>
                 <scope>runtime</scope>
             </dependency>
-            <!-- https://mvnrepository.com/artifact/com.alibaba/druid-spring-boot-starter -->
-            <dependency>
-                <groupId>com.alibaba</groupId>
-                <artifactId>druid-spring-boot-starter</artifactId>
-                <version>${druid.version}</version>
-            </dependency>
-            <!-- https://mvnrepository.com/artifact/com.zaxxer/HikariCP -->
-            <dependency>
-                <groupId>com.zaxxer</groupId>
-                <artifactId>HikariCP</artifactId>
-                <version>${HikariCP.version}</version>
-            </dependency>
             <!-- https://mvnrepository.com/artifact/com.baomidou/mybatis-plus-boot-starter -->
             <dependency>
                 <groupId>com.baomidou</groupId>
                 <artifactId>mybatis-plus-boot-starter</artifactId>
+                <version>${mybatis-plus-boot-starter.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-boot-starter-test</artifactId>
                 <version>${mybatis-plus-boot-starter.version}</version>
             </dependency>
             <!-- https://mvnrepository.com/artifact/com.baomidou/mybatis-plus-generator -->
@@ -248,12 +240,6 @@
             <dependency>
                 <groupId>org.mapstruct</groupId>
                 <artifactId>mapstruct</artifactId>
-                <version>${mapstruct.version}</version>
-            </dependency>
-            <!-- https://mvnrepository.com/artifact/org.mapstruct/mapstruct-jdk8 -->
-            <dependency>
-                <groupId>org.mapstruct</groupId>
-                <artifactId>mapstruct-jdk8</artifactId>
                 <version>${mapstruct.version}</version>
             </dependency>
             <!-- https://mvnrepository.com/artifact/org.mapstruct/mapstruct-processor -->
