@@ -25,7 +25,7 @@
         <!--OpenJDK 最低运行版本-->
         <jdk.version>11.0.2</jdk.version>
         <!--spring-boot-->
-        <spring-boot.version>2.6.3</spring-boot.version>
+        <spring-boot.version>2.6.12</spring-boot.version>
         <spring-cloud.version>2021.0.1</spring-cloud.version>
         <spring-cloud-alibaba.version>2021.0.1.0</spring-cloud-alibaba.version>
         <!--mysql-connector-java-->
