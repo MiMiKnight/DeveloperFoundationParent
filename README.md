@@ -1,12 +1,16 @@
-# DeveloperFoundationParent
+## DeveloperFoundationParent
 
-## v1.0.0
-> - spring-boot-dependencies v2.6.3
+### 环境参数
+> - OpenJDK v11.0.2  
+> - Maven v3.8.0及以上（推荐：v3.8.6）  
+> - Git v2.37.0及以上（推荐v2.37.0）
+
+### 依赖版本 v1.0.0
+> - spring-boot-dependencies v2.6.12
 > - spring-cloud-dependencies v2021.0.1
 > - spring-cloud-alibaba-dependencies v2021.0.1.0
 > - mysql-connector-java v8.0.29
 > - druid-spring-boot-starter v1.2.11
-> - HikariCP v5.0.1
 > - mybatis-plus-boot-starter v3.5.2
 > - mybatis-plus-generator v3.5.3
 > - lombok v1.18.24
