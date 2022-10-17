@@ -36,6 +36,8 @@
         <mybatis-plus-boot-starter.version>3.5.2</mybatis-plus-boot-starter.version>
         <!--mybatis-plus-generator-->
         <mybatis-plus-generator.version>3.5.2</mybatis-plus-generator.version>
+        <!--pagehelper-spring-boot-starter-->
+        <pagehelper-spring-boot-starter.version>1.4.5</pagehelper-spring-boot-starter.version>
         <!--lombok-->
         <lombok.version>1.18.24</lombok.version>
         <!--springfox-boot-starter-->
@@ -144,6 +146,12 @@
                 <groupId>com.baomidou</groupId>
                 <artifactId>mybatis-plus-generator</artifactId>
                 <version>${mybatis-plus-boot-starter.version}</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/com.github.pagehelper/pagehelper-spring-boot-starter -->
+            <dependency>
+                <groupId>com.github.pagehelper</groupId>
+                <artifactId>pagehelper-spring-boot-starter</artifactId>
+                <version>${pagehelper-spring-boot-starter.version}</version>
             </dependency>
             <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
             <dependency>

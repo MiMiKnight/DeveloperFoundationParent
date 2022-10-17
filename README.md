@@ -13,6 +13,7 @@
 > - druid-spring-boot-starter v1.2.11
 > - mybatis-plus-boot-starter v3.5.2
 > - mybatis-plus-generator v3.5.3
+> - pagehelper-spring-boot-starter v1.4.5  
 > - lombok v1.18.24
 > - springfox-boot-starter v3.0.0
 > - commons-lang3 v3.12.0
